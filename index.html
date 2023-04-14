@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Akshar&family=Roboto:wght@400;500;700&family=Titillium+Web:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <title>Code Quiz</title>
+
+</head>
+
+<body>
+    <header>
+        <h1 class="title">Claire's Very Sinister Coding Quiz</h1>
+    </header>
+
+    <main>
+        <button id="start-button">Start!</button>
+
+
+        <h2 class="hidden" id="question">
+            Questions go here. 
+        </h2>
+
+        <div class="hidden" id="answer-section">
+            <!--
+            <button>A</button>
+            <button class="button">
+                B
+            </button>
+            <button class="button">
+                C
+            </button>
+            <button class="button">
+                D
+            </button>
+            -->
+
+
+
+            
+        </div>
+
+        <div id="timer">
+            <span id="time"></span>
+        </div>
+
+    </main>
+        <div class="hidden" id="highscorecontainer">
+            <li id="highScore-1"></li>
+            <li id="highScore-2"></li>
+            <li id="highScore-3"></li>
+            <li id="highScore-4"></li>
+            <li id="highScore-5"></li>
+        </div>
+
+    <script src="./script.js"></script>
+
+</body>
+
+   
+
+
+
+</html>
+
+<!-- 
+GIVEN I am taking a code quiz
+WHEN I click the start button
+THEN a timer starts and I am presented with a question
+WHEN I answer a question
+THEN I am presented with another question
+WHEN I answer a question incorrectly
+THEN time is subtracted from the clock
+WHEN all questions are answered or the timer reaches 0
+THEN the game is over
+WHEN the game is over
+THEN I can save my initials and my score -->
